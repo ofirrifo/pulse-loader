@@ -1,0 +1,12 @@
+
+:host {
+  * {
+    user-select: none;
+    box-sizing: border-box;
+  }
+
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
