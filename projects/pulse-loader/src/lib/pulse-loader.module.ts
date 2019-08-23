@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
-import { PulseLoaderComponent } from './pulse-loader.component';
+import { PulseLoaderComponent } from './pulse-loader/pulse-loader.component';
 
 @NgModule({
-  declarations: [PulseLoaderComponent],
   imports: [],
+  declarations: [PulseLoaderComponent],
   exports: [PulseLoaderComponent]
 })
 export class PulseLoaderModule {}
