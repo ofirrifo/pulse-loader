@@ -18,6 +18,14 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "pulse-loader": [
+        "dist/pulse-loader"
+      ],
+      "pulse-loader/*": [
+        "dist/pulse-loader/*"
+      ]
+    }
   }
 }
