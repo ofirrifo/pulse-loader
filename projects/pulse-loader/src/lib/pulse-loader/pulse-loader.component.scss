@@ -1,4 +1,6 @@
-
+:root{
+  --main-bg-color: coral;
+}
 :host {
   * {
     user-select: none;
@@ -18,7 +20,6 @@
   svg.pulse-svg {
     overflow: visible;
     .first-circle {
-      fill: #0000ff;
       transform: scale(0.5);
       transform-origin: center center;
       animation: pulse-me 4s linear infinite;

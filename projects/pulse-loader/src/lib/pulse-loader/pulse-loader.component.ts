@@ -6,6 +6,6 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./pulse-loader.component.scss']
 })
 export class PulseLoaderComponent {
-  @Input() color = '#0000ff';
+  @Input() color = 'red';
   width = '25px';
 }
