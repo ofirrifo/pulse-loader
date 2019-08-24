@@ -13,10 +13,7 @@ export class AppComponent {
 
   constructor() {
     this.colors.forEach(color => {
-      this.pulseList.push({
-        color,
-        width: '13px'
-      });
+      this.pulseList.push({ color });
     });
   }
 }
