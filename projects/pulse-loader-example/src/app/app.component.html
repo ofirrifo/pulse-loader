@@ -1,39 +1,32 @@
-<ngx-pulse-loader
-[color]="'#1abc9c'"
-></ngx-pulse-loader>
+<div class="container">
+  <div class="row">
+    <ngx-pulse-loader
+      *ngFor="let pulse of pulseList"
+      [color]="pulse.color"
+      [width]="'6px'"
+    ></ngx-pulse-loader>
+  </div>
 
-<ngx-pulse-loader
-  [color]="'#2ecc71'"
-></ngx-pulse-loader>
+  <div class="row">
+    <ngx-pulse-loader
+      *ngFor="let pulse of pulseList"
+      [color]="pulse.color"
+      [width]="'13px'"
+    ></ngx-pulse-loader>
+  </div>
 
-<ngx-pulse-loader
-  [color]="'#3498db'"
-></ngx-pulse-loader>
+  <div class="row">
+    <ngx-pulse-loader
+      *ngFor="let pulse of pulseList"
+      [color]="pulse.color"
+      [width]="'20px'"
+    ></ngx-pulse-loader>
+  </div>
 
-<ngx-pulse-loader
-  [color]="'#9b59b6'"
-></ngx-pulse-loader>
-
-<ngx-pulse-loader
-  [color]="'#34495e'"
-></ngx-pulse-loader>
-
-<ngx-pulse-loader
-  [color]="'#f1c40f'"
-></ngx-pulse-loader>
-
-<ngx-pulse-loader
-  [color]="'#e67e22'"
-></ngx-pulse-loader>
-
-<ngx-pulse-loader
-  [color]="'#e74c3c'"
-></ngx-pulse-loader>
-
-<ngx-pulse-loader
-  [color]="'#ecf0f1'"
-></ngx-pulse-loader>
-
-<ngx-pulse-loader
-  [color]="'#95a5a6'"
-></ngx-pulse-loader>
+  <div class="row">
+    <ngx-pulse-loader
+      *ngFor="let pulse of pulseList"
+      [color]="pulse.color"
+    ></ngx-pulse-loader>
+  </div>
+</div>

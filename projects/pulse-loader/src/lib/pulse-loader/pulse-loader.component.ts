@@ -7,5 +7,5 @@ import { Component, Input } from '@angular/core';
 })
 export class PulseLoaderComponent {
   @Input() color = 'red';
-  width = '25px';
+  @Input() width = '25px';
 }
