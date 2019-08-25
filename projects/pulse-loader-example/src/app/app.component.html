@@ -1,32 +1,14 @@
 <div class="container">
-  <div class="row">
-    <ngx-pulse-loader
-      *ngFor="let pulse of pulseList"
-      [color]="pulse.color"
-      [width]="'6px'"
-    ></ngx-pulse-loader>
-  </div>
-
-  <div class="row">
-    <ngx-pulse-loader
-      *ngFor="let pulse of pulseList"
-      [color]="pulse.color"
-      [width]="'13px'"
-    ></ngx-pulse-loader>
-  </div>
-
-  <div class="row">
-    <ngx-pulse-loader
-      *ngFor="let pulse of pulseList"
-      [color]="pulse.color"
-      [width]="'20px'"
-    ></ngx-pulse-loader>
-  </div>
-
-  <div class="row">
-    <ngx-pulse-loader
-      *ngFor="let pulse of pulseList"
-      [color]="pulse.color"
-    ></ngx-pulse-loader>
+  <header>
+    Pulse Loader Examples
+  </header>
+  <div class="example-container">
+    <ng-container *ngFor="let width of widths">
+      <ngx-pulse-loader
+        *ngFor="let pulse of pulseList"
+        [color]="pulse.color"
+        [width]="width"
+      ></ngx-pulse-loader>
+    </ng-container>
   </div>
 </div>
