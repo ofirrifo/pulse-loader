@@ -1,4 +1,6 @@
 {
+  "name": "@rifo/pulse-loader",
+  "version": "0.0.3",
   "scripts": {
     "ng": "ng",
     "all:build": "npm run example:build && npm run lib:build",
@@ -10,8 +12,6 @@
     "lib:lint": "ng lint pulse-loader --fix",
     "lib:publish": "npm run lib:build && ./dist/pulse-loader npm publish"
   },
-  "name": "@rifo/pulse-loader",
-  "version": "0.0.2",
   "description": "angular pulse loader",
   "keywords": [
     "pulse",
