@@ -26,4 +26,29 @@ npm i @rifo/pulse-loader
 ## Usage
 ```js
 
+// import PulseLoaderModule
+import { PulseLoaderModule } from '@rifo/pulse-loader';
+
+@NgModule({
+  imports:      [ BrowserModule, PulseLoaderModule ],
+  declarations: [ AppComponent ],
+  bootstrap:    [ AppComponent ]
+})
+export class AppModule { }
+
+```
+
+```js
+
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'my-app',
+  template: `	<ngx-pulse-loader [color]="color" [width]="width"></ngx-pulse-loader>`,
+  styleUrls: ['./app.component.scss']
+})
+export class AppComponent {
+    color = '#1abc9c';
+    width = '13px';
+}
 ```
