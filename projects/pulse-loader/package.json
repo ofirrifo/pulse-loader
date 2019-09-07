@@ -1,11 +1,12 @@
 {
   "name": "pulse-loader",
   "version": "0.0.1",
-  "description": "pulse loader",
+  "description": "angular pulse loader",
   "keywords": [
     "pulse",
     "loader",
-    "pulse loader"
+    "pulse loader",
+    "angular pulse loader"
   ],
   "author": "Ofir Fridman",
   "repository": {

@@ -1,6 +1,24 @@
 {
   "name": "pulse-loader",
-  "version": "0.0.0",
+  "version": "0.0.1",
+  "description": "angular pulse loader",
+  "keywords": [
+    "pulse",
+    "loader",
+    "pulse loader",
+    "angular pulse loader"
+  ],
+  "author": "Ofir Fridman",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ofirrifo/pulse-loader.git"
+  },
+  "homepage": "https://github.com/ofirrifo/pulse-loader",
+  "engines": {
+    "node": ">=10.9.0 <13.0.0",
+    "yarn": ">=1.9.0 <2.0.0"
+  },
+  "license": "MIT",
   "scripts": {
     "ng": "ng",
     "all:build": "npm run example:build && npm run lib:build",
