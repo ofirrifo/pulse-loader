@@ -24,6 +24,8 @@ npm i @rifo/pulse-loader
 ```
 
 ## Usage
+
+**IMPORT MODULE**
 ```js
 
 // import PulseLoaderModule
@@ -38,6 +40,7 @@ export class AppModule { }
 
 ```
 
+**COMPONENT USAGE**
 ```js
 
 import { Component } from '@angular/core';
