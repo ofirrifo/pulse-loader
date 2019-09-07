@@ -9,7 +9,9 @@
  |_|
 ```
 
-<img src="https://media.giphy.com/media/M9IRI3CpCTEGSvkmOw/giphy.gif">
+<p align="center">
+    <img src="https://media.giphy.com/media/M9IRI3CpCTEGSvkmOw/giphy.gif">
+</p>
 
 ## [Demo](https://ofirrifo.github.io/pulse-loader)
 
