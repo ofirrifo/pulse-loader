@@ -56,6 +56,7 @@ THE SOFTWARE.
 
 
 pulse-loader
+MIT
 MIT License
 
 Copyright (c) 2019 Ofir Fridman
