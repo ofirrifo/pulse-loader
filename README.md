@@ -8,3 +8,22 @@
  | .__/ \__,_|_|___/\___|     |_|\___/ \__,_|\__,_|\___|_|
  |_|
 ```
+
+## [Demo](https://ofirrifo.github.io/pulse-loader)
+
+## [Example]()
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+
+## Installation
+```sh
+npm i @rifo/pulse-loader 
+```
+
+## Usage
+```js
+
+```
