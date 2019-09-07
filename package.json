@@ -10,7 +10,7 @@
     "example:lint": "ng lint pulse-loader-example --fix",
     "lib:build": "ng build pulse-loader",
     "lib:lint": "ng lint pulse-loader --fix",
-    "lib:publish": "./dist/pulse-loader npm publish"
+    "lib:publish": "npm run lib:build && ./dist/pulse-loader npm publish"
   },
   "private": true,
   "dependencies": {
