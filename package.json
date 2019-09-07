@@ -5,7 +5,7 @@
     "ng": "ng",
     "all:build": "npm run example:build && npm run lib:build",
     "example:start": "ng serve --open",
-    "example:build": "ng build pulse-loader-example --prod --aot --buildOptimizer",
+    "example:build": "ng build pulse-loader-example --prod --aot --buildOptimizer --base-href='https://ofirrifo.github.io/pulse-loader/'",
     "example:publish-2-gh-pages": "npm run example:build && ngh --dir=./dist/pulse-loader-example --no-silent",
     "example:lint": "ng lint pulse-loader-example --fix",
     "lib:build": "ng build pulse-loader",
