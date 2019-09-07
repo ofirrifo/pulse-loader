@@ -9,6 +9,8 @@
  |_|
 ```
 
+<img src="https://media.giphy.com/media/M9IRI3CpCTEGSvkmOw/giphy.gif">
+
 ## [Demo](https://ofirrifo.github.io/pulse-loader)
 
 ## [Example](https://stackblitz.com/edit/pulse-loader-example)
