@@ -1,5 +1,5 @@
 {
-  "name": "@rifo/pulse-loader",
+  "name": "pulse-loader",
   "version": "0.0.3",
   "scripts": {
     "ng": "ng",
@@ -40,6 +40,7 @@
     "@angular/platform-browser": "~8.2.3",
     "@angular/platform-browser-dynamic": "~8.2.3",
     "@angular/router": "~8.2.3",
+    "@rifo/pulse-loader": "0.0.3",
     "rxjs": "~6.5.2",
     "tslib": "^1.9.0",
     "zone.js": "~0.10.2"

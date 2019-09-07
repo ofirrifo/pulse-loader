@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
-import { PulseLoaderModule } from 'pulse-loader/lib/pulse-loader.module';
+import { PulseLoaderModule } from '@rifo/pulse-loader';
 
 @NgModule({
   imports: [BrowserModule, PulseLoaderModule],
