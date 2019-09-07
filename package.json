@@ -10,7 +10,7 @@
     "lib:lint": "ng lint pulse-loader --fix",
     "lib:publish": "npm run lib:build && ./dist/pulse-loader npm publish"
   },
-  "name": "pulse-loader",
+  "name": "@rifo/pulse-loader",
   "version": "0.0.1",
   "description": "angular pulse loader",
   "keywords": [
