@@ -6,11 +6,11 @@
     "all:build": "npm run example:build && npm run lib:build",
     "example:start": "ng serve --open",
     "example:build": "ng build pulse-loader-example --prod --aot --buildOptimizer",
-    "example:publish": "npm run example:build && ngh --dir=./dist/pulse-loader-example --no-silent",
+    "example:publish-2-gh-pages": "npm run example:build && ngh --dir=./dist/pulse-loader-example --no-silent",
     "example:lint": "ng lint pulse-loader-example --fix",
     "lib:build": "ng build pulse-loader",
     "lib:lint": "ng lint pulse-loader --fix",
-    "lib:publish2npm": "npm run lib:build && ./dist/pulse-loader npm publish"
+    "lib:publish-2-npm": "npm run lib:build && ./dist/pulse-loader npm publish"
   },
   "description": "angular pulse loader",
   "keywords": [
