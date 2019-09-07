@@ -27,3 +27,6 @@ npm i @rifo/pulse-loader
 ```js
 
 ```
+
+
+{% gist a426af798c513e7ce8e17e4c59237283 %}
