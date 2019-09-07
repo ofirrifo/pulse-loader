@@ -28,5 +28,4 @@ npm i @rifo/pulse-loader
 
 ```
 
-
-{% gist a426af798c513e7ce8e17e4c59237283 %}
+<script src="https://gist.github.com/ofirrifo/a426af798c513e7ce8e17e4c59237283.js"></script>
